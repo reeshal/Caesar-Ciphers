@@ -15,9 +15,9 @@ int main(){
             for(int j=0; j<alpha.size(); j++){
                 if(text.at(i)==alpha.at(j)){
                     if(isupper(text.at(i)))
-                        cout<<alpha.at((j+3)%26);
+                        cout<<alpha.at((j+displacement)%26);
                     else
-                        cout<<alpha.at(((j+3)%26)+26);
+                        cout<<alpha.at(((j+displacement)%26)+26);
                 }
             }
         }
