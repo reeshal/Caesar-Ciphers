@@ -6,7 +6,7 @@ int main(){
     int displacement;
     cout<<"Input a text:";
     getline(cin, text);
-    cout<<"By how many you want to displace numbers?:";
+    cout<<"By how many you want to displace letters?:";
     cin>>displacement;
     for(int i=0;i<text.size(); i++){
         if(text.at(i)==32)
